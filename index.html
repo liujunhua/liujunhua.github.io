@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="this is my notes">
+<meta property="og:type" content="website">
+<meta property="og:title" content="liujunhua note">
+<meta property="og:url" content="https://liujunhua.github.io/index.html">
+<meta property="og:site_name" content="liujunhua note">
+<meta property="og:description" content="this is my notes">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="liujunhua note">
+<meta name="twitter:description" content="this is my notes">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="https://liujunhua.github.io/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>liujunhua note</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">liujunhua note</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">notes</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://liujunhua.github.io/2019/05/11/What-is-CQRS/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="liujunhua">
+      <meta itemprop="description" content="this is my notes">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liujunhua note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/11/What-is-CQRS/" class="post-title-link" itemprop="url">What is CQRS</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-10 16:06:06" itemprop="dateCreated datePublished" datetime="2019-05-10T16:06:06Z">2019-05-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-28 09:12:50" itemprop="dateModified" datetime="2019-05-28T09:12:50Z">2019-05-28</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2019/05/11/What-is-CQRS/CQRS.jpeg" alt></p>
+<p>CQRS means Command Query Responsibility Segregation. Many people think that CQRS is an entire architecture, but they are wrong. CQRS is just a small pattern. This pattern was first introduced by Greg Young and Udi Dahan. They took inspiration from a pattern called Command Query Separation which was defined by Bertrand Meyer in his book “Object Oriented Software Construction”. The main idea behind CQS is: “A method should either change state of an object, or return a result, but not both. In other words, asking the question should not change the answer. More formally, methods should return a value only if they are referentially transparent and hence possess no side effects.” (Wikipedia) Because of this we can divide a methods into two sets:<br>Commands - change the state of an object or entire system (sometimes called as modifiers or mutators).<br>Queries - return results and do not change the state of an object.<br>In a real situation it is pretty simple to tell which is which. The queries will declare return type, and commands will return void. This pattern is broadly applicable and it makes reasoning about objects easier. On the other hand, CQRS is applicable only on specific problems.<br>Many applications that use mainstream approaches consists of models which are common for read and write side. Having the same model for read and write side leads to a more complex model that could be very difficult to be maintained and optimized.<br>The real strength of these two patterns is that you can separate methods that change state from those that don’t. This separation could be very handy in situations when you are dealing with performance and tuning. You can optimize the read side of the system separately from the write side. The write side is known as the domain. The domain contains all the behavior. The read side is specialized for reporting needs.<br>Another benefit of this pattern is in the case of large applications. You can split developers into smaller teams working on different sides of the system (read or write) without knowledge of the other side. For example developers working on read side do not need to understand the domain model.<br>Query side<br>The queries will only contain the methods for getting data. From an architectural point of view these would be all methods that return DTOs that the client consumes to show on the screen. The DTOs are usually projections of domain objects. In some cases it could be a very painful process, especially when complex DTOs are requested.<br>Using CQRS you can avoid these projections. Instead it is possible to introduce a new way of projecting DTOs. You can bypass the domain model and get DTOs directly from the data storage using a read layer. When an application is requesting data, this could be done by a single call to the read layer which returns a single DTO containing all the needed data.</p>
+<p>The read layer can be directly connected to the database (data model) and it is not a bad idea to use stored procedures for reading data. A direct connection to the data source makes queries very easy to by maintained and optimized. It makes sense to denormalize data. The reason for this is that data is normally queried many times more than the domain behavior is executed. This denormalization could increase the performance of the application.<br>Command side<br>Since the read side has been separated the domain is only focused on processing of commands. Now the domain objects no longer need to expose the internal state. Repositories have only a few query methods aside fromGetById.</p>
+<p>Commands are created by the client application and then sent to the domain layer. Commands are messages that instruct a specific entity to perform a certain action. Commands are named like DoSomething (for example, ChangeName, DeleteOrder …). They instruct the target entity to do something that might result in different outcomes or fail. Commands are handled by command handlers.<br>Hide   Shrink </p>
+<p>   Copy Code<br>public interface ICommand<br>{<br>    Guid Id { get; }<br>}</p>
+<p>public class Command : ICommand<br>{<br>    public Guid Id { get; private set; }<br>    public int Version { get; private set; }<br>    public Command(Guid id,int version)<br>    {<br>        Id = id;<br>        Version = version;<br>    }<br>}</p>
+<p>public class CreateItemCommand:Command<br>{<br>    public string Title { get; internal set; }<br>    public string Description { get;internal set; }<br>    public DateTime From { get; internal set; }<br>    public DateTime To { get; internal set; }</p>
+<pre><code>public CreateItemCommand(Guid aggregateId, string title, 
+    string description,int version,DateTime from, DateTime to)
+    : base(aggregateId,version)
+{
+    Title = title;
+    Description = description;
+    From = from;
+    To = to;
+}
+</code></pre><p>}<br>All commands will be sent to the Command Bus which will delegate each command to the command handler. This demonstrates that there is only one entry point into the domain. The responsibility of the command handlers is to execute the appropriate domain behavior on the domain. Command handlers should have a connection to the repository to provide the ability to load the needed entity (in this context called Aggregate Root) on which behavior will be executed.<br>Hide   Shrink </p>
+<p>   Copy Code<br>public interface ICommandHandler<tcommand> where TCommand : Command<br>{<br>    void Execute(TCommand command);<br>}</tcommand></p>
+<p>public class CreateItemCommandHandler : ICommandHandler<createitemcommand><br>{<br>    private IRepository<diaryitem> _repository;</diaryitem></createitemcommand></p>
+<pre><code>public CreateItemCommandHandler(IRepository&lt;DiaryItem&gt; repository)
+{
+    _repository = repository;
+}
+
+public void Execute(CreateItemCommand command)
+{
+    if (command == null)
+    {
+        throw new ArgumentNullException(&quot;command&quot;);
+    }
+    if (_repository == null)
+    {
+        throw new InvalidOperationException(&quot;Repository is not initialized.&quot;);
+    }
+    var aggregate = new DiaryItem(command.Id, command.Title, command.Description,             
+                                  command.From, command.To);
+    aggregate.Version = -1;
+    _repository.Save(aggregate, aggregate.Version);
+}
+</code></pre><p>}<br>The command handler performs the following tasks:<br>It receives the Command instance from the messaging infrastructure (Command Bus)<br>It validates that the Command is a valid Command<br>It locates the aggregate instance that is the target of the Command.<br>It invokes the appropriate method on the aggregate instance passing in any parameter from the command.<br>It persists the new state of the aggregate to storage.<br>Internal Events<br>The first question we should ask is what is the domain event. The domain event is something that has happened in the system in the past. The event is typically the result of a command. For example the client has requested a DTO and has made some changes which resulted in a command being published. The appropriate command handler has then loaded the correct Aggregate Root and executed the appropriate behavior. This behavior raises an event. This event is handled by specific subscribers. Aggregate publishes the event to an event bus which delivers the event to the appropriate event handlers. The event which is handled inside the aggregate root is called an internal event. The event handler should not be doing any logic instead of setting the state.<br>Domain Behavior<br>Hide   Copy Code<br>public void ChangeTitle(string title)<br>{<br>    ApplyChange(new ItemRenamedEvent(Id, title));<br>}<br>Domain Event<br>Hide   Copy Code<br>public class ItemCreatedEvent:Event<br>{<br>    public string Title { get; internal set; }<br>    public DateTime From { get; internal set; }<br>    public DateTime To { get; internal set; }<br>    public string Description { get;internal set; }</p>
+<pre><code>public ItemCreatedEvent(Guid aggregateId, string title ,
+    string description, DateTime from, DateTime to)
+{
+    AggregateId = aggregateId;
+    Title = title;
+    From = from;
+    To = to;
+    Description = description;
+}
+</code></pre><p>}</p>
+<p>public class Event:IEvent<br>{<br>    public int Version;<br>    public Guid AggregateId { get; set; }<br>    public Guid Id { get; private set; }<br>}<br>Internal Domain Event Handler<br>Hide   Copy Code<br>public void Handle(ItemRenamedEvent e)<br>{<br>    Title = e.Title;<br>}<br>Events are usually connected to another pattern called Event Sourcing (ES). ES is an approach to persisting the state of an aggregate by saving the stream of events in order to record changes in the state of the aggregate.<br>As I mentioned earlier, every state change of an Aggregate Root is triggered by an event and the internal event handler of the Aggregate Root has no other role than setting the correct state. To get the state of an Aggregate Root we have to replay all the events internally. Here I must mention that events are write only. You cannot alter or delete an existing event. If you find that some logic in your system is generating the wrong events, you must generate a new compensating event correcting the results of the previous bug events.<br>External Events<br>External events are usually used for bringing the reporting database in sync with the current state of the domain. This is done by publishing the internal event to outside the domain. When an event is published then the appropriate Event Handler handles the event. External events can be published to multiple event handlers. The Event handlers perform the following tasks:<br>It receives an Event instance from the messaging infrastructure (Event Bus).<br>It locates the process manager instance that is the target of the Event.<br>It invokes the appropriate method of the process manager instance passing in any parameters from the event.<br>It persists the new state of the process manager to storage.<br>But who can publish the events? Usually the domain repository is responsible for publishing external events.<br>Using the Code<br>I have created a very simple example that demonstrates how to implement the CQRS pattern. This simple example allows you to create diary items and modify them. The solution consists of three projects:<br>Diary.CQRS<br>Diary.CQRS.Configuration<br>Diary.CQRS.Web<br>The first one is the base project that contains all domain and messaging objects. The Configuration project is consumed by Web which is the UI for this example. Now let’s take a closer look at the main project.<br>Diary.CQRS<br>As I mentioned earlier, this project contains all the domain and messaging objects for this example. The only entry point for the CQRS example is the Command Bus into which commands are sent. This class has only one generic method Send(T command). This method is responsible for creating the appropriate command handler using CommandHandlerFactory. If no command handler is associated with a command, an exception is thrown. In other case, the Execute method is called in which a behavior is executed. The Behavior creates an internal event and this event is stored into an internal field called _changes. This field is declared in the AggregateRootbase class. Next, this event is handled by the internal event handler which changes the state of an Aggregate. After this behavior is processed, all the aggregate’s changes are stored into the repository. The repository checks whether there are some inconsistencies by comparison of the expected version of the aggregate and the version of the aggregate stored in the storage. If those versions are different, it means that the object has been modified by someone else and a ConcurrencyException is thrown. In other case the changes are stored in the Event Storage.<br>Repository<br>Hide   Shrink </p>
+<p>   Copy Code<br>public class Repository<t> : IRepository<t> where T : AggregateRoot, new()<br>{<br>    private readonly IEventStorage _storage;<br>    private static object _lockStorage = new object();</t></t></p>
+<pre><code>public Repository(IEventStorage storage)
+{
+    _storage = storage;
+} 
+
+public void Save(AggregateRoot aggregate, int expectedVersion)
+{
+    if (aggregate.GetUncommittedChanges().Any())
+    {
+        lock (_lockStorage)
+        {
+            var item = new T();
+
+            if (expectedVersion != -1)
+            {
+                item = GetById(aggregate.Id);
+                if (item.Version != expectedVersion)
+                {
+                    throw new ConcurrencyException(string.Format(&quot;Aggregate {0} has been previously modified&quot;,
+                                                                 item.Id));
+                }
+            }
+
+            _storage.Save(aggregate);
+        }
+    }
+}
+
+public T GetById(Guid id)
+{
+   IEnumerable&lt;Event&gt; events;
+   var memento = _storage.GetMemento&lt;BaseMemento&gt;(id);
+   if (memento != null)
+   {
+       events = _storage.GetEvents(id).Where(e=&gt;e.Version&gt;=memento.Version);
+   }
+   else
+   {
+       events = _storage.GetEvents(id);
+   }
+    var obj = new T();
+    if(memento!=null)
+        ((IOriginator)obj).SetMemento(memento);
+
+    obj.LoadsFromHistory(events);
+    return obj;
+}
+</code></pre><p>}<br>InMemoryEventStorage<br>In this simple example I have created an InMemoryEventStorage which stores all events into memory. This class implements the IEventStorage interface with four methods:<br>Hide   Copy Code<br>public IEnumerable<event> GetEvents(Guid aggregateId)<br>{<br>    var events = _events.Where(p =&gt; p.AggregateId == aggregateId).Select(p =&gt; p);<br>    if (events.Count() == 0)<br>    {<br>        throw new AggregateNotFoundException(string.Format(<br>          “Aggregate with Id: {0} was not found”, aggregateId));<br>    }<br>    return events;<br>}<br>This method returns all events for the aggregate and throws an error when there aren’t events for an aggregate which means that aggregate doesn’t exist.<br>Hide   Copy Code<br>public void Save(AggregateRoot aggregate)<br>{<br>    var uncommittedChanges = aggregate.GetUncommittedChanges();<br>    var version = aggregate.Version;</event></p>
+<pre><code>foreach (var @event in uncommittedChanges)
+{
+    version++;
+    if (version &gt; 2)
+    {
+        if (version % 3 == 0)
+        {
+            var originator = (IOriginator)aggregate;
+            var memento = originator.GetMemento();
+            memento.Version = version;
+            SaveMemento(memento);
+        }
+    }
+    @event.Version=version;
+    _events.Add(@event);
+}
+foreach (var @event in uncommittedChanges)
+{
+    var desEvent = Converter.ChangeTo(@event, @event.GetType());
+    _eventBus.Publish(desEvent);
+}
+</code></pre><p>}<br>This method stores events into memory and creates every three events memento for the aggregate. This memento holds all state information for the aggregate and the version. Using mementos increases the performance of the application because it is not important to load all the events but just the last three of them.<br>When all events are stored, they are published by the Event Bus and consumed by the external Event Handlers.<br>Hide   Copy Code<br>public T GetMemento<t>(Guid aggregateId) where T : BaseMemento<br>{<br>    var memento = _mementos.Where(m =&gt; m.Id == aggregateId).Select(m=&gt;m).LastOrDefault();<br>    if (memento != null)<br>        return (T) memento;<br>    return null;<br>}<br>Returns memento for aggregate.<br>Hide   Copy Code<br>public void SaveMemento(BaseMemento memento)<br>{<br>    _mementos.Add(memento);<br>}<br>Stores memento for aggregate.<br>Aggregate Root<br>The AggregateRoot class is the base class for all aggregates. This class implements the IEventProviderinterface. It holds information about all uncommitted changes in the _changes list. This class also has anApplyChange method which executes the appropriate internal event handler. The LoadFromHistory method loads and applies the internal events.<br>Hide   Shrink </t></p>
+<p>   Copy Code<br>public abstract class AggregateRoot:IEventProvider<br>{<br>    private readonly List<event> _changes;</event></p>
+<pre><code>public Guid Id { get; internal set; }
+public int Version { get; internal set; }
+public int EventVersion { get; protected set; }
+
+protected AggregateRoot()
+{
+    _changes = new List&lt;Event&gt;();
+}
+
+public IEnumerable&lt;Event&gt; GetUncommittedChanges()
+{
+    return _changes;
+}
+
+public void MarkChangesAsCommitted()
+{
+    _changes.Clear();
+}
+
+public void LoadsFromHistory(IEnumerable&lt;Event&gt; history)
+{
+    foreach (var e in history) ApplyChange(e, false);
+    Version = history.Last().Version;
+    EventVersion = Version;
+}
+
+protected void ApplyChange(Event @event)
+{
+    ApplyChange(@event, true);
+}
+
+private void ApplyChange(Event @event, bool isNew)
+{
+    dynamic d = this;
+
+    d.Handle(Converter.ChangeTo(@event,@event.GetType()));
+    if (isNew)
+    {
+        _changes.Add(@event);
+    }
+}      
+</code></pre><p>}<br>EventBus<br>Events describe changes in the system’s state. The primary purpose of the events is to update the read model. For this purpose I have created the EventBus class. The only behavior of the EventBus class is publishing events to subscribers. One event can be published to more than one subscriber. In this example there is no need for a manual subscription. The event handler factory returns a list of all EventHandlers that can process the current event.<br>Hide   Copy Code<br>public class EventBus:IEventBus<br>{<br>    private IEventHandlerFactory _eventHandlerFactory;</p>
+<pre><code>public EventBus(IEventHandlerFactory eventHandlerFactory)
+{
+    _eventHandlerFactory = eventHandlerFactory;
+}
+
+public void Publish&lt;T&gt;(T @event) where T : Event
+{
+    var handlers = _eventHandlerFactory.GetHandlers&lt;T&gt;();
+    foreach (var eventHandler in handlers)
+    {
+        eventHandler.Handle(@event);
+    }
+}
+</code></pre><p>}<br>Event Handlers<br>The primary purpose of event handlers is to take the events and update the read model. In the example below you can see the ItemCreatedEventHandler. It handles the ItemCreatedEvent. Using information from the event it creates a new object and stores it in the reporting database.<br>Hide   Copy Code<br>public class ItemCreatedEventHandler : IEventHandler<itemcreatedevent><br>{<br>    private readonly IReportDatabase _reportDatabase;<br>    public ItemCreatedEventHandler(IReportDatabase reportDatabase)<br>    {<br>        _reportDatabase = reportDatabase;<br>    }<br>    public void Handle(ItemCreatedEvent handle)<br>    {<br>        DiaryItemDto item = new DiaryItemDto()<br>            {<br>                Id = handle.AggregateId,<br>                Description =  handle.Description,<br>                From = handle.From,<br>                Title = handle.Title,<br>                To=handle.To,<br>                Version =  handle.Version<br>            };</itemcreatedevent></p>
+<pre><code>    _reportDatabase.Add(item);
+}
+</code></pre><p>}<br>Diary.CQRS.Web<br>This project serves as UI for the CQRS example. The Web UI project is a simple ASP.NET MVC 4 application with only one HomeController with six ActionResult methods:<br>ActionResult Index() - this method returns the Index view which is the main view of this application where you can see the list of all diary items.<br>ActionResult Delete(Guid id) - this method creates a new DeleteItemCommand and sends it toCommandBus. When a command is sent, the method will return Index view.<br>ActionResult Add() - returns Add view where you can input data for a new diary item.<br>ActionResult Add(DiaryItemDto item) - this method creates a new CreateItemCommand and sends it to the CommandBus. When a new item is created, the Index view is returned.<br>ActionResult Edit(Guid id) - returns the Edit view for a selected diary item.<br>ActionResult Edit(DiaryItemDto item) - this method creates a new ChangeItemCommand and sends it to the CommandBus. When an item is successfully updated, the Index screen is returned. In the case of ConcurrencyError, the edit view is returned and an exception is displayed on screen.<br>In the picture below you can see the main screen with a list of diary items.</p>
+<p>When to use CQRS<br>In general, the CQRS pattern could be very valuable in situations when you have highly collaborative data and large, multi-user systems, complex, include ever-changing business rules, and delivers a significant competitive advantage of business. It can be very helpful when you need to track and log historical changes.<br>With CQRS you can achieve great read and write performance. The system intrinsically supports scaling out. By separating read and write operations, each can be optimized.<br>CQRS can by very helpful when you have difficult business logic. CQRS forces you to not mix domain logic and infrastructural operations.<br>With CQRS you can split development tasks between different teams with defined interfaces.<br>When not to use CQRS<br>If you are not developing a highly collaborative system where you don’t have multiple writers to the same logical set of data you shouldn’t use CQRS.<br>History<br>4 March - Original version posted.</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://liujunhua.github.io/2019/05/10/CentOS-7-x防火墙使用笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="liujunhua">
+      <meta itemprop="description" content="this is my notes">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liujunhua note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/10/CentOS-7-x防火墙使用笔记/" class="post-title-link" itemprop="url">CentOS 7.x防火墙使用笔记</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-10 14:18:12" itemprop="dateCreated datePublished" datetime="2019-05-10T14:18:12Z">2019-05-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-28 09:12:50" itemprop="dateModified" datetime="2019-05-28T09:12:50Z">2019-05-28</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础/" itemprop="url" rel="index"><span itemprop="name">基础</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础/操作系统/" itemprop="url" rel="index"><span itemprop="name">操作系统</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础/操作系统/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础/操作系统/Linux/CentOS/" itemprop="url" rel="index"><span itemprop="name">CentOS</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h2 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h2><h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><p>在CentOS 7.x中，防火墙的基本命令是 <strong>firewall-cmd</strong></p>
+<h4 id="查看帮助文档"><a href="#查看帮助文档" class="headerlink" title="查看帮助文档"></a>查看帮助文档</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">man firewall-cmd <span class="comment">#简单查看帮助文档</span></span><br><span class="line"></span><br><span class="line">firewall-cmd -h <span class="comment">#查询具体使用方法</span></span><br></pre></td></tr></table></figure>
+<h4 id="状态查询"><a href="#状态查询" class="headerlink" title="状态查询"></a>状态查询</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --state <span class="comment">#命令一</span></span><br><span class="line">systemctl status firewalld <span class="comment">#命令二</span></span><br></pre></td></tr></table></figure>
+<p>通过查询防火墙的当前状态，确定服务器是否开启了防火墙</p>
+<h4 id="启动防火墙"><a href="#启动防火墙" class="headerlink" title="启动防火墙"></a>启动防火墙</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start firewalld <span class="comment">#没有提示信息防火墙启动成功</span></span><br></pre></td></tr></table></figure>
+<h4 id="查看已开放端口"><a href="#查看已开放端口" class="headerlink" title="查看已开放端口"></a>查看已开放端口</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --list-ports</span><br><span class="line"></span><br><span class="line">firewall-cmd --zone=public --query-port=8000/tcp <span class="comment">#查询指定端口是否已经开放</span></span><br><span class="line"></span><br><span class="line">cat /etc/firewall/zones/public.xml <span class="comment">#通过zones下面的xml文件来查看</span></span><br></pre></td></tr></table></figure>
+<p><code>/etc/firewall/zones</code> 目录下面有一个名为<code>public.xml</code>文件，存放着zone相关信息，不只是端口</p>
+<h4 id="添加端口"><a href="#添加端口" class="headerlink" title="添加端口"></a>添加端口</h4><p><strong>添加单个端口</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=8000/tcp --permanent <span class="comment">#示例端口为8000</span></span><br></pre></td></tr></table></figure>
+<p><strong>添加一组连续端口</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=8000-8009/tcp --permanent <span class="comment">#示例端口为8000－8009</span></span><br></pre></td></tr></table></figure>
+<p>要重新启动防火墙，才生效</p>
+<h4 id="重启防火墙"><a href="#重启防火墙" class="headerlink" title="重启防火墙"></a>重启防火墙</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload <span class="comment">#输出success的字样表示重启成功</span></span><br></pre></td></tr></table></figure>
+<h4 id="关闭端口"><a href="#关闭端口" class="headerlink" title="关闭端口"></a>关闭端口</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --remove-port=8000/tcp --permanent</span><br></pre></td></tr></table></figure>
+<p>关闭端口之后重启才能生效</p>
+<h4 id="关闭防火墙"><a href="#关闭防火墙" class="headerlink" title="关闭防火墙"></a>关闭防火墙</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://liujunhua.github.io/2019/05/10/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="liujunhua">
+      <meta itemprop="description" content="this is my notes">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="liujunhua note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/10/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-10 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-10T00:00:00Z">2019-05-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-28 09:12:50" itemprop="dateModified" datetime="2019-05-28T09:12:50Z">2019-05-28</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/后端/" itemprop="url" rel="index"><span itemprop="name">后端</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/后端/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/后端/Java/MyBatis/" itemprop="url" rel="index"><span itemprop="name">MyBatis</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">liujunhua</p>
+              <div class="site-description motion-element" itemprop="description">this is my notes</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/liujunhua" title="GitHub &rarr; https://github.com/liujunhua" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:msnetboy@outlook.com" title="E-Mail &rarr; mailto:msnetboy@outlook.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://stackoverflow.com" title="StackOverflow &rarr; https://stackoverflow.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i>StackOverflow</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">liujunhua</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
+
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
